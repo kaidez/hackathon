@@ -3,9 +3,9 @@ import React from 'react';
 function Header (props) {
   return (
     <div className="nav-wrapper">
-      <center>
-        <img src="/../img/hackathonBanner.png" alt="Hackathon"/>
-      </center>
+      <div className="icon">
+        <img className="bannerImage" src="img/hackathonBanner.png" alt="Hackathon"/>
+      </div>
 
       <div>
         <h1 href="#" className="brand-logo center">Hackathon</h1>

@@ -33,3 +33,15 @@
 
 }
 
+.icon {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.bannerImage {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin: auto;
+	display: block;
+}
