@@ -35,7 +35,7 @@ export default class App extends Component {
               <Route exact path="/post-hackathon" component={PostHackathon} />
             </div>
           </Router>
-        </div>
+      </div>
       </div>
     );
   }
