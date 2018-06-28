@@ -9,6 +9,19 @@
 
 .nav-header {
   background-color: black;
+  height: 100px;
+}
+
+.nav-header a {
+	text-align: justify;
+	padding: 2px;
+}
+
+.nav-header a:hover {
+	color: #ffa323;
+}
+.nav-header a:hover {
+    background-color: #000000!important;
 }
 
 .main-menu {
@@ -19,3 +32,4 @@
   position: relative;
 
 }
+
