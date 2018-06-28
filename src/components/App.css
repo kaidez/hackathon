@@ -33,7 +33,7 @@
 }
 
 .nav-header ul {
-	margin: 0 auto;
+	margin: 50px;
 	display: flex;
 	justify-content: space-between;
 	list-style-type: none;
@@ -61,13 +61,3 @@
 	margin: auto;
 	display: block;
 }
-
-.homepage-header {
-  font-size: 40px;
-  clear: both;
-}
-
-.main-menu {
-  background-color: black;
-}
-
