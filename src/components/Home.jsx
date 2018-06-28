@@ -14,7 +14,8 @@ export default class Home extends Component {
       <div>
           <h1>Home</h1>
             <div className="topRow">Global Hackathon</div>
-            <div></div>
+            <div>
+            </div>
           <div className="bottomRow">sdfsadf</div>
       </div>
     );
