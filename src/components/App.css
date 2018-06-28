@@ -16,6 +16,12 @@
 	text-align: justify;
 	line-height: 45px;
 	float: left;
+  padding: 2px;
+
+}
+
+.navbar-fixed nav {
+  position: static;
 }
 
 .nav-header a:hover {
@@ -53,5 +59,10 @@
 	width: 600px;
 	margin: auto;
 	display: block;
+}
+
+.homepage-header {
+  font-size: 40px;
+  clear: both;
 }
 
