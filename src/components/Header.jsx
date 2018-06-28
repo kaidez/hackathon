@@ -13,18 +13,18 @@ function Header (props) {
         <li><a href="#">Framer</a></li>
       </ul> */}
       <ul className="main-menu">
-        <li> 
-          <a href="link1">Register</a>
-        </li>
-        <li> 
-          <a href="link2">Create / Update Project</a>
+        <li>
+          <a href="/register">Register</a>
         </li>
         <li>
-          <a href="link3">Sign up for Project</a>
+          <a href="/signup">Create / Update Project</a>
         </li>
         <li>
-          <a href="link4">Location Preparation </a>
-        </li> 
+          <a href="/update">Sign up for Project</a>
+        </li>
+        <li>
+          <a href="/create">Location Preparation </a>
+        </li>
         <li>
           <a href="link5">Post-Hackathon</a>
         </li>
@@ -32,10 +32,10 @@ function Header (props) {
 
 
     {/*  <ul className="main-menu">
-        <li> 
+        <li>
           <a href="link1"> Register for event</a>
         </li>
-        <li> 
+        <li>
           <a href="link2"> Create / Update Project</a>
         </li>
         <li>
@@ -43,7 +43,7 @@ function Header (props) {
         </li>
         <li>
           <a href="link4"> Location Preparation </a>
-        </li> 
+        </li>
         <li>
           <a href="link5"> Update Project Post-Hackathon</a>
         </li>
