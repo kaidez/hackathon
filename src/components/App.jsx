@@ -10,6 +10,8 @@ import Register from './Register';
 import SignUp from './SignUp';
 import Update from './Update';
 import Create from './Create';
+import PostHackathon from './PostHackathon';
+
 
 export default class App extends Component {
   constructor(props) {
@@ -30,6 +32,7 @@ export default class App extends Component {
               <Route exact path="/signup" component={SignUp} />
               <Route exact path="/update" component={Update} />
               <Route exact path="/create" component={Create} />
+              <Route exact path="/post-hackathon" component={PostHackathon} />
             </div>
           </Router>
         </div>
