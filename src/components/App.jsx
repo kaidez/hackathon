@@ -14,14 +14,23 @@ export default class App extends Component {
     return (
       <div>
         <div className="navbar-fixed">
-          <nav className="blue lighten-2">
+          <nav className="nav-header">
             <div className="nav-wrapper">
-              <a href="#" className="brand-logo center">Courses</a>
+              <div>
+                <h1 href="#" className="brand-logo center">Hackathon</h1>
+              </div>
               {/* <ul id="nav-mobile" className="left hide-on-med-and-down">
                 <li><a href="#">React</a></li>
                 <li><a href="#">React Native</a></li>
                 <li><a href="#">Framer</a></li>
               </ul> */}
+              <ul className="main-menu">
+                <li>Register for Event</li>
+                <li>Create / Update</li>
+                <li>Sign up for Project</li>
+                <li>Location Preparation</li>
+                <li>Update Project Post-Hackathon</li>
+              </ul>
             </div>
           </nav>
         </div>

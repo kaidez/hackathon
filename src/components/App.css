@@ -1,3 +1,21 @@
 .card-content {
   height: 225px;
 }
+
+.brand-logo {
+  display: inline-block;
+  margin: 0;
+}
+
+.nav-header {
+  background-color: black;
+}
+
+.main-menu {
+  display: block;
+  margin: 10px;
+  padding: 10px 0;
+  left: 21%;
+  position: relative;
+
+}
