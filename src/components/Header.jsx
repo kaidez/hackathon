@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function Header (props) {
   return (<div className="nav-wrapper">
               <div>
@@ -12,7 +11,7 @@ function Header (props) {
                 <li><a href="#">Framer</a></li>
               </ul> */}
               <ul className="main-menu">
-                <li>Register for event</li>
+                <li><a href="/register">Register for event</a></li>
                 <li> Create / Update Project </li>
                 <li>Sign up for Project</li>
                 <li>Location Preparation</li>
