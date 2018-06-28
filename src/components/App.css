@@ -8,8 +8,9 @@
 }
 
 .nav-header {
+
   background-color: black;
-  height: 228px;
+  height:228px;
 }
 
 .nav-header a {
@@ -60,4 +61,3 @@
 	margin: auto;
 	display: block;
 }
-
