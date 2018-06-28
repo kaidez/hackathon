@@ -14,7 +14,12 @@
 
 .nav-header a {
 	text-align: justify;
-	padding: 2px;
+  padding: 2px;
+
+}
+
+.navbar-fixed nav {
+  position: static;
 }
 
 .nav-header a:hover {
