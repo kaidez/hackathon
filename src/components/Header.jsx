@@ -5,9 +5,7 @@ function Header (props) {
   return (
     <div className="nav-wrapper">
       <div>
-      <a href="/">
-        <img className="bannerImage" src="img/hackathonBanner2.png" alt="Hackathon"/>
-      </a>
+        <img className="bannerImage" src="img/hackathonBanner.png" alt="Hackathon"/>
       </div>
       {/* <ul id="nav-mobile" className="left hide-on-med-and-down">
         <li><a href="#">React</a></li>
