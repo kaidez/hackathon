@@ -12,8 +12,8 @@ function Header (props) {
                 <li><a href="#">Framer</a></li>
               </ul> */}
               <ul className="main-menu">
-                <li>Register for Event</li>
-                <li>Create / Update</li>
+                <li>Register for event</li>
+                <li> Create / Update Project </li>
                 <li>Sign up for Project</li>
                 <li>Location Preparation</li>
                 <li>Update Project Post-Hackathon</li>
