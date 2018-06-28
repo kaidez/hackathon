@@ -1,14 +1,11 @@
 import React from 'react';
 
 function Header (props) {
+
   return (
     <div className="nav-wrapper">
-      <center>
-        <img src="/../img/hackathonBanner.png" alt="Hackathon"/>
-      </center>
-
       <div>
-        <h1 href="#" className="brand-logo center">Hackathon</h1>
+        <img className="bannerImage" src="img/hackathonBanner.png" alt="Hackathon"/>
       </div>
       {/* <ul id="nav-mobile" className="left hide-on-med-and-down">
         <li><a href="#">React</a></li>
@@ -53,6 +50,7 @@ function Header (props) {
       </ul> */}
     </div>
   )
+
 }
 
 export default Header;
