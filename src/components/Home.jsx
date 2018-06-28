@@ -20,10 +20,17 @@ export default class Home extends Component {
           </div>
 
           <div className="bottomRow">
-            <div>Event Stats</div>
+            <div><h4>Event Stats</h4></div>
             <div>
-              <div className="float-div">Location Based Statistics</div>
-              <div className="float-div">fasd</div>
+              <div className="float-div">Location Based Statistics
+              <br />
+                <button className="btn btn-secondary">Export to Excel</button>
+            </div>
+              <div className="float-div">
+                Line of Business
+              <br />
+              <button className="btn btn-secondary">Export to Excel</button></div>
+
             </div>
           </div>
         </div>

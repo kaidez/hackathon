@@ -79,3 +79,13 @@
   display: inline-block;
   margin-right: 30px;
 }
+
+.words {
+  word-break: break-word;
+  width: 200px;
+}
+
+.style-button {
+  text-transform: none;
+  display: block
+}
