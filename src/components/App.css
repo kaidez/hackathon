@@ -9,8 +9,8 @@
 
 .nav-header {
 
-  background-color: midnightblue;
-  height: 100px;
+  background-color: black;
+  height:228px;
 }
 
 .nav-header a {
@@ -65,5 +65,9 @@
 .homepage-header {
   font-size: 40px;
   clear: both;
+}
+
+.main-menu {
+  background-color: black;
 }
 

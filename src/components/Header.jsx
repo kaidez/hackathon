@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Header (props) {
+
   return (
     <div className="nav-wrapper">
       <div>
@@ -49,6 +50,7 @@ function Header (props) {
       </ul> */}
     </div>
   )
+
 }
 
 export default Header;
